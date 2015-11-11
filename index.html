@@ -1,0 +1,21 @@
+<html>
+	<head>
+		<script type="text/javascript" src="jquery-1.11.3.js"></script>
+		<script type="text/javascript">
+			$("document").ready(function(){
+				$("#button1").click(function(){
+					//$(".hide").css("border", "10px solid green");
+					$("p").removeClass("borderMe");
+				});
+			});
+		</script>
+		<link href="jquery.css" rel="stylesheet" type="text/css"/>
+	</head>
+	<body>
+		<p class="borderMe">Dont hide me</p>
+		
+		<button id="button1"> hide paragraph</button>
+		<div id="insert_content"></div>
+	</body>
+</html>
+
